@@ -1,0 +1,10 @@
+<span class="date"
+              title="{{ page.date | date_to_xmlschema }}">
+            <span class="published">Posted </span>
+            <span class="day">{{ page.date | date: '%d' }}</span>
+            <span class="month">
+              <abbr>{{ page.date | date: '%B' }}</abbr>
+            </span>
+            <span class="year">{{ page.date | date: '%Y' }}</span>.
+
+          </span>

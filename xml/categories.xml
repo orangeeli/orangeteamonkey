@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+ <categories>
+   <category id='1' added="2010-10-10">
+     <name>Ruby</name>
+     <description>ruby category description</description>
+   </category>
+   <category id='2' added="2010-10-10">
+     <name>.Net</name>
+     <description>.Net category description</description>
+   </category>
+ </categories>

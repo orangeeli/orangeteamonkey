@@ -1,0 +1,22 @@
+---
+title: Archives
+layout: base
+---
+    {% include header.html %}
+    <div id="content" class="archives">
+      <div class="index">
+        <h4><em>Archives</em></h4>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}/#notebook" title="{{ post.title }}">
+                {% include dateArchive.html %}
+		<span class="title">{{ post.title }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div> <!-- /.index -->
+    </div> <!-- /#container.archives -->
+   {% include nav.html %}
+   {% include footer.html %}

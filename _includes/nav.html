@@ -1,0 +1,30 @@
+<div id="sidebar">
+
+<h6 class="navFirst">Categories</h6>
+<div id="LoaderImg">
+	<!--img src="/images/loader.gif" alt="Loading Categories" /-->
+</div>
+<div id="DivCategories">
+<ul id="Categories">
+	{% for category in site.categories %}
+		<li>
+			{{ category.name }}
+		</li>
+	{% endfor %}
+</ul>
+</div>
+
+<h6 class="navAll">See also</h6>
+
+<div id="DivNavLinks">
+<ul id="NavLinks">
+  <li>
+	<a href="http://orangeteacup.me">Orange Tea Cup</a>
+  </li>
+  <li>
+        <a href="http://orangeteacup.tumblr.com">Organic orange tea</a>
+  </li>
+</ul>
+</div>
+
+</div>

@@ -1,0 +1,14 @@
+---
+layout: base
+---
+    {% include header.html %}
+
+    <div id="content">
+      <div class="entry-content">
+        <h4>{{ page.title }}</h4>
+        {% include datePost.html %}
+	{{ content }}
+      </div>
+    </div><!-- content -->
+    {% include nav.html %}
+    {% include footer.html %}
