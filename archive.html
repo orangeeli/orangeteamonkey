@@ -9,7 +9,7 @@ layout: base
         <ul>
           {% for post in site.posts %}
             <li>
-              <a href="{{ post.url }}/#notebook" title="{{ post.title }}">
+              <a href="{{ post.url }}#notebook" title="{{ post.title }}">
                 {% include dateArchive.html %}
 		<span class="title">{{ post.title }}</span>
               </a>
