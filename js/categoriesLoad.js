@@ -22,9 +22,11 @@ function loadCategories() {
 		     $('#DivCategories').html('<ul id=\"Categories\"></ul>');
                      $(xml).find('category').each(function(){
                          var id_text = $(this).attr('id')
-                         var name_text = $(this).find('name').text()
+                         var name_text = $(this).find('name').text();
+
+			 /*<span class=\"liTextColor\">*/
                          $('<li></li>')
-                             .html('<span class=\"liTextColor\">'+name_text+'</span>')
+                             .html('<a href=\"/archive.html#'+name_text+'\" title=\"'+name_text+'\">'+name_text+'</a>')
                              .appendTo('#Categories');
                      }); //close each(
                  },

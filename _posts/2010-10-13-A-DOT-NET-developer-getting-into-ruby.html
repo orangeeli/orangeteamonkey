@@ -3,13 +3,14 @@ layout: post
 title: A .NET developer getting into Ruby
 description: How I got to know Ruby and why I decided to explore it.
 categories: [ruby, dotnet]
+cat_1: ruby
+cat_2: dotnet
 ---
 
 <span class="date">
-Filed under
-            {% for temp in categories %}
-                {{ temp }},
-            {% endfor %}
+Filed under <a href="/archive.html#{{ page.cat_1 }}" title="{{ page.cat_1 }}">{{ page.cat_1 }}</a> 
+<a href="/archive.html#{{ page.cat_2 }}" title="">{{ page.cat_2 }}</a>
+
 </span>
 <p class="infop">
 I probably got to know {% include rubyanchor.html %}, and it’s {% include rubyonrailsanchor.html %} framework, when I started to work with 

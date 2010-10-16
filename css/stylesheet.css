@@ -35,6 +35,8 @@ blockquote, q {quotes: "" ""; font-family: Arial, sans-serif; }
 .date {font-size: .8em; color: #808080;}
 .infop {text-indent: 20px; line-height: 1.48em; /*text-align: justify;*/}
 .entry-content{padding-bottom: 1em;}
+.dsq-comment-message{color: #898989;}
+/*#dsq-author-user*{color:#909090;}*/
 
 #content{width: 37.5em; float: left; display: inline; max-width: 62.5%; padding-bottom: 1em; /*border: 1px solid green;*/}
 #contentBottom{width: 37.5em; float: left; display: inline; max-width: 62.5%; /*border: 1px solid green;*/}
