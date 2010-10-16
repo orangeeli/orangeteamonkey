@@ -8,4 +8,8 @@
      <name>.Net</name>
      <description>.Net category description</description>
    </category>
+   <category id='3' added="2010-10-10">
+     <name>General</name>
+     <description>General category</description>
+   </category>
  </categories>

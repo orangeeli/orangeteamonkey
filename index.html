@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Orange Tea Blog
+title: Orange Tea Monkey
 ---
     {% include header.html %}
 
@@ -17,6 +17,8 @@ title: Orange Tea Blog
 	 <br />
           {{ post.description }}
 	  <br />
+
+	<a href="{{ post.url }}#disqus_thread">Comments</a>
         </div> <!-- /.entry-content -->
 	
     {% endfor %}

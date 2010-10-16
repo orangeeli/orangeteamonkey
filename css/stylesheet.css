@@ -3,7 +3,7 @@
 body {height: 100%;font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; text-align:center; height:100%; font-size: 62.5%;}
 #container{width: 60em; max-width: 100%; /*border: 1px solid black;*/ margin: 0 auto; text-align:left; font-size: 1.4em;}
 
-#header{width: 60em; max-width: 100%; /*border: 1px solid blue;*/}
+#header{width: 60em; max-width: 100%; /*border: 1px solid blue;*/ padding-bottom: 1em;}
 #logo{margin:0px; padding:0px;}
 #title{color: #FF7600; font-family: "bello-pro-1","bello-pro-2",sans-serif;}
 
@@ -29,22 +29,24 @@ ul {list-style-type:square; color: #DFE0E4;}
 .liTextColor {color: black;}
 blockquote {padding: 1em 0em 1em 4em; text-indent: -0.8em; line-height: 1.48em}
 blockquote:before, blockquote:after, q:before, q:after {content: ""; }
+blockquote, q {quotes: "" ""; font-family: Arial, sans-serif; }
 .quoteAuthor { font-size: .8em;}
 
-.date {font-size: .8em; color: grey;}
-.infop {text-indent: 20px; line-height: 1.48em;}
+.date {font-size: .8em; color: #808080;}
+.infop {text-indent: 20px; line-height: 1.48em; /*text-align: justify;*/}
+.entry-content{padding-bottom: 1em;}
 
-#content{width: 37.5em; float: left; display: inline; max-width: 62.5%; /*border: 1px solid green;*/}
+#content{width: 37.5em; float: left; display: inline; max-width: 62.5%; padding-bottom: 1em; /*border: 1px solid green;*/}
 #contentBottom{width: 37.5em; float: left; display: inline; max-width: 62.5%; /*border: 1px solid green;*/}
-#sidebar{width: 20em; float: right; max-width: 37.5%; padding-left: 2.5em; /*border: 1px solid orange;*/}
+#sidebar{width: 20em; float: right; max-width: 37.5%; padding-left: 2.5em; padding-bottom: 1em;/*border: 1px solid orange;*/}
 
 #contentBottom{padding: 1em 1em 0em 0em;}
-#footer{width: 60em; max-width: 100%; clear: both; padding: 1em 0em 1em 0em; /*border: 1px solid yellow;*/}
+#footer{width: 52.8em; /*60em*/ max-width: 100%; clear: both; padding: .5em 0em 1em 0em; border-top: 1px solid #DFE0E4; margin-top: 1em; /*border: 1px solid yellow;*/}
 
 div#content a:link {color: #A64D00; text-decoration: none;}
 div#content a:visited {color: #A64D00; text-decoration: none;}
 div#content a:hover {color: #FF9840;}
-div#content a:active {color: ;}
+div#content a:active {}
 
 div#header a:link {color: #FF7600; text-decoration: none;}
 div#header a:visited {color: #FF7600; text-decoration: none;}
@@ -54,15 +56,15 @@ div#header a:active {color: #FF7600;}
 div#sidebar a:link {color: #A64D00; text-decoration: none;}
 div#sidebar a:visited {color: #A64D00; text-decoration: none;}
 div#sidebar a:hover {color: #FF9840;}
-div#sidebar a:active {color: ;}
+div#sidebar a:active {}
 
 div#contentBottom a:link {color: #A64D00; text-decoration: none;}
 div#contentBottom a:visited {color: #A64D00; text-decoration: none;}
 div#contentBottom a:hover {color: #FF9840;}
-div#contentBottom a:active {color: ;}
+div#contentBottom a:active {}
 
 div#footer a:link {color: #A64D00; text-decoration: none;}
 div#footer a:visited {color: #A64D00; text-decoration: none;}
 div#footer a:hover {color: #FF9840;}
-div#footer a:active {color: ;}
+div#footer a:active {}
 
