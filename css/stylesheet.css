@@ -5,8 +5,9 @@ body {height: 100%;font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", 
 
 #header{width: 60em; max-width: 100%; /*border: 1px solid blue;*/ padding: 2em 0em 1em 0em; margin: 0em;}
 #logo{margin:0px; padding:0px;}
-#title{color: #FF7600; font-family: "bello-pro-1","bello-pro-2",sans-serif;}
+#title{color: #FF7600; font-family: sans-serif;}
 #title a {margin: 0em; padding: 0em;}
+#header a{margin: 0em; padding: 0em; /*border: 1px solid black;*/}
 
 /*
 
@@ -22,14 +23,14 @@ h3 {}
 h4 {font-size: 2.1em; color: #00C90D; }
 h5 {font-size: 1.8em; color: #00C90D; }
 h6 {font-size: 1.6em; color: #00C90D; }
-h6.navFirst {font-size: 1.6em; color: #00C90D; padding-bottom: .2em; border-bottom: 1px solid #DFE0E4; width: 8em; margin-bottom: 1em;} 
-h6.navAll {font-size: 1.6em; color: #00C90D; padding-bottom: .2em; border-bottom: 1px solid #DFE0E4; width: 8em; margin-bottom: 1em; margin-top: 1em;}
+h6.nav_first {font-size: 1.6em; color: #00C90D; padding-bottom: .2em; border-bottom: 1px solid #DFE0E4; width: 8em; margin-bottom: 1em;} 
+h6.nav_all {font-size: 1.6em; color: #00C90D; padding-bottom: .2em; border-bottom: 1px solid #DFE0E4; width: 8em; margin-bottom: 1em; margin-top: 1em;}
 
 /* nav.html */
-#LoaderImg{display: block;}
-#Categories {list-style-type:square; color: #DFE0E4;}
-#NavLinks {list-style-type:square; color: #DFE0E4;}
-.liTextColor {color: black;}
+#loader_img{display: block;}
+#categories {list-style-type:square; color: #DFE0E4;}
+#nav_links {list-style-type:square; color: #DFE0E4;}
+.li_text_color {color: black;}
 
 .index ul{list-style-type:square; color: #DFE0E4;}
 
@@ -71,10 +72,10 @@ div#sidebar a:visited {color: #A64D00; text-decoration: none;}
 div#sidebar a:hover {color: #FF9840;}
 div#sidebar a:active {}
 
-div#contentBottom a:link {color: #A64D00; text-decoration: none;}
-div#contentBottom a:visited {color: #A64D00; text-decoration: none;}
-div#contentBottom a:hover {color: #FF9840;}
-div#contentBottom a:active {}
+div#content_bottom a:link {color: #A64D00; text-decoration: none;}
+div#content_bottom a:visited {color: #A64D00; text-decoration: none;}
+div#content_bottom a:hover {color: #FF9840;}
+div#content_bottom a:active {}
 
 div#footer a:link {color: #A64D00; text-decoration: none;}
 div#footer a:visited {color: #A64D00; text-decoration: none;}
