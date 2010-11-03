@@ -31,11 +31,13 @@ h6.navAll {font-size: 1.6em; color: #00C90D; padding-bottom: .2em; border-bottom
 #NavLinks {list-style-type:square; color: #DFE0E4;}
 .liTextColor {color: black;}
 
+.index ul{list-style-type:square; color: #DFE0E4;}
+
 /* content */
 .date {font-size: .8em; color: #808080;}
 .infop {text-indent: 20px; line-height: 1.48em; /*text-align: justify;*/}
 .infop a {padding: 0em; margin: 0em;}
-.entry-content{padding-bottom: 1em;}
+.entry_content{padding-bottom: 1em;}
 
 blockquote {padding: 1em 0em 1em 4em; text-indent: -0.8em; line-height: 1.48em}
 blockquote:before, blockquote:after, q:before, q:after {content: "";}
@@ -48,10 +50,10 @@ blockquote, q {quotes: "" ""; font-family: Arial, sans-serif; }
 .about_nav_last {text-align:right; padding: .5em 0em 2em 0em; font-size: 0.5em;}
 
 #content{width: 37.5em; float: left; display: inline; max-width: 62.5%; padding-bottom: 1em; /*border: 1px solid green;*/}
-#contentBottom{width: 37.5em; float: left; display: inline; max-width: 62.5%; /*border: 1px solid green;*/}
+#content_bottom{width: 37.5em; float: left; display: inline; max-width: 62.5%; /*border: 1px solid green;*/}
 #sidebar{width: 20em; float: right; max-width: 37.5%; padding-left: 2.5em; padding-bottom: 1em;/*border: 1px solid orange;*/}
 
-#contentBottom{padding: 1em 1em 0em 0em;}
+#content_bottom{padding: 1em 1em 0em 0em;}
 #footer{width: 52.8em; /*60em*/ max-width: 100%; clear: both; padding: .5em 0em 1em 0em; border-top: 1px solid #DFE0E4; margin-top: 1em; /*border: 1px solid yellow;*/}
 
 div#content a:link {color: #A64D00; text-decoration: none;}
@@ -78,4 +80,10 @@ div#footer a:link {color: #A64D00; text-decoration: none;}
 div#footer a:visited {color: #A64D00; text-decoration: none;}
 div#footer a:hover {color: #FF9840;}
 div#footer a:active {}
+
+/* 404 page */
+#container_error_page {min-height: 100%;height: auto !important;height: 100%; margin: 0 auto -4em; width: 55em; max-width: 100%; min-width: 500px; text-align:left;}
+#title_error_page {color: #FF7600; font-family: "bello-pro-1","bello-pro-2",sans-serif; margin: 0 auto; padding: 1em 0em .5em 0em; border: 0em; }
+#p_error_page {padding-left: 4px; font-size: 1.5em;}
+
 

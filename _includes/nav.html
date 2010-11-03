@@ -6,12 +6,18 @@
 </div>
 <div id="DivCategories">
 <ul id="Categories">
-	{% for category in site.categories %}
-		<li>
-			{{ category.name }}
-		</li>
-	{% endfor %}
+
 </ul>
+
+{% for category in site.iterable.categories %}
+         h1. {{ category.name }}
+         <ul>
+           {% for post in category.posts %}
+             <li>{{ post.title }}</li>
+           {% endfor %}
+           </ul>
+       {% endfor %}
+
 </div>
 
 <h6 class="navAll">See also</h6>

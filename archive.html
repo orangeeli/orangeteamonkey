@@ -16,6 +16,55 @@ layout: base
             </li>
           {% endfor %}
         </ul>
+<!--
+<h6 id="general">General</h6>
+       <ul>
+        {% for post in site.categories.general %}
+        <li>
+              <a href="{{ post.url }}#notebook" title="{{ post.title }}">
+                {% include dateArchive.html %}
+                <span class="title">{{ post.title }}</span>
+              </a>
+            </li>
+        {% endfor %}
+       </ul>
+
+<h6 id="jekyll">Jekyll</h6>
+       <ul>
+        {% for post in site.categories.jekyll %}
+        <li>
+              <a href="{{ post.url }}#notebook" title="{{ post.title }}">
+                {% include dateArchive.html %}
+                <span class="title">{{ post.title }}</span>
+              </a>
+            </li>
+        {% endfor %}
+       </ul>
+
+<h6 id="ruby">Ruby</h6>
+       <ul>
+	{% for post in site.categories.ruby %}
+        <li>
+              <a href="{{ post.url }}#notebook" title="{{ post.title }}">
+                {% include dateArchive.html %}
+                <span class="title">{{ post.title }}</span>
+              </a>
+            </li>
+	{% endfor %}
+       </ul>
+
+<h6 id=".NET">.NET</h6>
+       <ul>
+        {% for post in site.categories.dotnet %}
+        <li>
+              <a href="{{ post.url }}#notebook" title="{{ post.title }}">
+                {% include dateArchive.html %}
+                <span class="title">{{ post.title }}</span>
+              </a>
+            </li>
+        {% endfor %}
+       </ul>
+-->
       </div> <!-- /.index -->
     </div> <!-- /#container.archives -->
    {% include nav.html %}

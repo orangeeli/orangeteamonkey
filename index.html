@@ -7,8 +7,8 @@ title: Orange Tea Monkey
     <div id="content">
      
     {% for post in site.posts limit:3 %}
-        <div class="entry-content">
-          <h5 class="clear">
+        <div class="entry_content">
+          <h5>
             <a href="{{ post.url }}" title="{{ post.title }}"> 
               {{ post.title }}
             </a>
@@ -19,11 +19,11 @@ title: Orange Tea Monkey
 	  <br />
 
 	<a href="{{ post.url }}#disqus_thread">Comments</a>
-        </div> <!-- /.entry-content -->
+        </div> <!-- entry_content -->
 	
     {% endfor %}
 
-    <div id="contentBottom">
+    <div id="content_bottom">
 	<a href="archive.html" title="archives">View archives</a>
     </div>
 
